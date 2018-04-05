@@ -1,0 +1,29 @@
+{
+  "name": "markdown-autolink",
+  "version": "1.0.0",
+  "description": "CLI – search in md-files for text and convert them to links",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/signalwerk/markdown-autolink.git"
+  },
+  "keywords": [
+    "markdown",
+    "md",
+    "cli"
+  ],
+  "author": "Stefan Huber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/signalwerk/markdown-autolink/issues"
+  },
+  "homepage": "https://github.com/signalwerk/markdown-autolink#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "path": "^0.12.7",
+    "sync-request": "^6.0.0"
+  }
+}
